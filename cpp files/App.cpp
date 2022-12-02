@@ -48,7 +48,7 @@ bool App::AppEvent()
 int App::mainApp()
 {
     srand(time(nullptr));
-    Character Player("C:/Users/Shurturgal/source/repos/PokeLike/images/Arceus.png");
+    Character Player("../images/trainer.png");
     Player.SetWindowSize(this->windowWidth, this->windowHeight);
     static Capacities Capacity;
     Pokemon Voltali("Voltali", 100, 20, 0, 58, 49, 56, 68, 32, 80, Capacity.Charge(), Capacity.Eclair(), Capacity.Mimi_Queue(), Capacity.Rugissement(), TYPE_ELECTRIK, TYPE_NONE, "None");
