@@ -1,0 +1,6 @@
+﻿  App.cpp
+C:\Users\Shurturgal\source\repos\PokeLike\cpp files\App.cpp(50,15): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  Character.cpp
+  Source.cpp
+  Generating Code...
+  PokeLike.vcxproj -> C:\Users\Shurturgal\source\repos\PokeLike\x64\Debug\PokeLike.exe
