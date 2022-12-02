@@ -44,7 +44,7 @@ void Option::set_values() {
 
 void Option::loop_events(sf::RenderWindow* window, sf::SoundBuffer* buffer, sf::Sound* sound) {
     sf::Event event;
-    int volume = 30;
+    //int volume = 30;
 
     while (window->pollEvent(event)) {
         if (event.type == sf::Event::Closed) {
@@ -56,8 +56,8 @@ void Option::loop_events(sf::RenderWindow* window, sf::SoundBuffer* buffer, sf::
                 pressed = true;
                 if (sound->getVolume() < 91) {
                     sound->setVolume(sound->getVolume() + 10);
-                    volume = volume + 10;
-                    texts[2] = texts[char(volume)];
+                    //volume = volume + 10;
+                    //texts[2] = texts[char(volume)];
                     //texts[2].setString(char(volume));
                     // .setString(options[2])
                 }
@@ -71,8 +71,8 @@ void Option::loop_events(sf::RenderWindow* window, sf::SoundBuffer* buffer, sf::
                 pressed = true;
                 if (sound->getVolume() > 10) {
                     sound->setVolume(sound->getVolume() - 10);
-                    volume = volume - 10;
-                    texts[2] = texts[char(volume)];
+                    //volume = volume - 10;
+                    //texts[2] = texts[char(volume)];
                 }
                 pressed = false;
                 theselect = false;

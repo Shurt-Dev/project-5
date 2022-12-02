@@ -1,6 +1,7 @@
-﻿  App.cpp
-C:\Users\Shurturgal\source\repos\PokeLike\cpp files\App.cpp(50,15): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
-  Character.cpp
-  Source.cpp
+﻿  Combat.cpp
+C:\Users\Shurturgal\source\repos\PokeLike\Combat.cpp(7,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  Option.cpp
+C:\Users\Shurturgal\source\repos\PokeLike\Option.cpp(35,43): warning C4267: 'argument': conversion from 'size_t' to 'unsigned int', possible loss of data
   Generating Code...
+C:\Users\Shurturgal\source\repos\PokeLike\Combat.cpp(331): warning C4715: 'Combat::getPokeSprite': not all control paths return a value
   PokeLike.vcxproj -> C:\Users\Shurturgal\source\repos\PokeLike\x64\Debug\PokeLike.exe

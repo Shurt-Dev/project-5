@@ -161,12 +161,15 @@
     <Font Include="font\SourceSansPro-SemiBold.ttf" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Accueil.hpp" />
+    <ClInclude Include="A_Propos.hpp" />
     <ClInclude Include="Combat.h" />
     <ClInclude Include="headers\App.h" />
     <ClInclude Include="headers\Capacities.h" />
     <ClInclude Include="headers\Character.h" />
     <ClInclude Include="headers\Combat2.h" />
     <ClInclude Include="headers\Pokemon.h" />
+    <ClInclude Include="menu.hpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
