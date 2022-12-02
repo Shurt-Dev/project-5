@@ -23,7 +23,7 @@ void Accueil::set_values() {
 
     bg->setTexture(*image);
 
-    options = { "Appuiez sur entrer" };
+    options = { "Appuyez sur entrée" };
     texts.resize(1);
     coords = { {225,675} };
     sizes = { 60 };
@@ -50,7 +50,7 @@ void Accueil::loop_events(sf::RenderWindow* window, sf::SoundBuffer* buffer, sf:
             theselect = true;
 
             sound->stop();
-            buffer->loadFromFile("28-Pok�mon-Gym.wav");
+            buffer->loadFromFile("28-Pokémon-Gym.wav");
             sound->setBuffer(*buffer);
             sound->play();
 
